@@ -5,33 +5,112 @@
 	"Description": "",
 	"Plugins": [
 		{
-			"Name": "MagicLeapMedia",
-			"Enabled": false,
+			"Name": "MagicLeapCamera",
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapConnections",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapContacts",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapDispatch",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapLightEstimation",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapLocation",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
 				"Lumin"
 			]
 		},
 		{
-			"Name": "MagicLeap",
-			"Enabled": false,
+			"Name": "MagicLeapMovement",
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Lumin",
-				"Mac",
-				"Win64"
+				"Win64",
+				"Mac"
 			]
 		},
 		{
-			"Name": "MagicLeapPassableWorld",
-			"Enabled": false,
+			"Name": "MagicLeapMusicService",
+			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Lumin",
-				"Mac",
-				"Win64"
+				"Win64",
+				"Mac"
 			]
 		},
 		{
-			"Name": "MLSDK",
-			"Enabled": false
+			"Name": "MagicLeapNetworking",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapScreens",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapSharedFile",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
+		},
+		{
+			"Name": "MagicLeapTablet",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Lumin",
+				"Win64",
+				"Mac"
+			]
 		}
 	]
 }
